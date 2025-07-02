@@ -1,5 +1,6 @@
 targets='
 .zshrc
+.claude
 .config
 '
 
