@@ -46,6 +46,9 @@ esac
 # History timestamp format
 export HISTTIMEFORMAT="%F %T "
 
+# Add ~/.local/bin to PATH
+export PATH="$HOME/.local/bin:$PATH"
+
 # fnm
 FNM_PATH="/home/matsuzaki/.local/share/fnm"
 if [ -d "$FNM_PATH" ]; then
