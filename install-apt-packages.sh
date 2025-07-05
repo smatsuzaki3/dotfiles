@@ -7,8 +7,11 @@ sudo apt upgrade -y
 
 # 必要なパッケージのインストール
 sudo apt install -y \
-    git \
-    vim \
+    bat \
     curl \
+    git \
+    ripgrep \
+    vim \
     wget \
+    wslu \
     zsh
