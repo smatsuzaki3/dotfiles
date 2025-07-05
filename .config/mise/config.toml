@@ -1,0 +1,19 @@
+[tasks.open-tutorial-doc]
+description = "miseの説明記事を開く"
+run = "/usr/bin/wslview https://zenn.dev/dress_code/articles/a99ff13634bbe6"
+
+[tasks.update-config-toml]
+description = "miseの設定ファイルを更新する"
+run = "vim ~/.config/mise/config.toml"
+
+[tasks.check-installed-packages]
+description = "miseでインストールされたファイルの確認"
+run = "mise list"
+
+[tasks.sam-validate]
+description = "SAM VALIDATE : sam validate --lint"
+run = "sam validate --lint"
+
+[tasks.sam-build]
+description = "SAM BUILD : sam build --use-container"
+run = "sam build --use-container"
