@@ -15,3 +15,6 @@ sudo apt install -y \
     wget \
     wslu \
     zsh
+
+# 不要になったパッケージの削除
+sudo apt autoremove
