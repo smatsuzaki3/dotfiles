@@ -12,4 +12,8 @@ description: Create a git commit
 
 ## Your task
 
-Based on the above changes, create a single git commit.
+1. Based on the above changes, create a single git commit.
+2. Then push to remote branch
+```bash
+git push origin HEAD
+```
