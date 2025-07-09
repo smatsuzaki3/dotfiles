@@ -14,7 +14,7 @@ for target in ${targets}; do
   else
     if [ -f ${target_home} ]; then
         echo "rename current file: ${target_home}"
-      mv -i ${target_home} ${target_home}.pre-manage-dotflies
+      mv -i ${target_home} ${target_home}.pre-manage-dotfiles
     fi
 
     if [ -d ${target_home} ]; then
