@@ -5,3 +5,5 @@ dofile置き場
 
 - [Zsh](https://www.zsh.org/)
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+
+- [lazygit](https://github.com/jesseduffield/lazygit)
