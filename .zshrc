@@ -1,6 +1,3 @@
-# aliasは以下のファイルにて管理
-source ~/.config/zsh/aliases.zsh
-
 # History configuration
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -93,3 +90,8 @@ HIST_STAMPS="mm/dd/yyyy"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+# aliasは以下のファイルにて管理
+# loaded after Oh My Zsh to override defaults
+# https://blog-smatsuzaki.hatenablog.com/entry/2025/07/12/120109
+source ~/.config/zsh/aliases.zsh
