@@ -10,6 +10,7 @@ sudo apt install -y \
     bat \
     curl \
     git \
+    httpie \
     ripgrep \
     vim \
     wget \
