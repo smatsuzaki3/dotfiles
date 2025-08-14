@@ -42,6 +42,7 @@ esac
 export PATH="$HOME/.local/bin:$PATH"
 
 # fnm
+# https://github.com/Schniz/fnm
 FNM_PATH="/home/matsuzaki/.local/share/fnm"
 if [ -d "$FNM_PATH" ]; then
   export PATH="$FNM_PATH:$PATH"
@@ -51,6 +52,10 @@ fi
 if [[ -f "$HOME/.local/bin/env" ]]; then
     . "$HOME/.local/bin/env"
 fi
+
+# tfenv
+# https://github.com/tfutils/tfenv
+export PATH="$HOME/.tfenv/bin:$PATH"
 
 # Oh My Zsh configuration
 
