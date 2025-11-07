@@ -1,3 +1,6 @@
+# terraform
+alias tf='terraform'
+
 # mise
 alias mr='mise run'
 
