@@ -1,3 +1,9 @@
+# Cargo用
+. "$HOME/.cargo/env"
+
+# direnv
+eval "$(direnv hook bash)"
+
 # History configuration
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -104,3 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # loaded after Oh My Zsh to override defaults
 # https://blog-smatsuzaki.hatenablog.com/entry/2025/07/12/120109
 source ~/.config/zsh/aliases.zsh
+
+# Zoxide
+# https://github.com/ajeetdsouza/zoxide
+eval "$(zoxide init zsh)"
