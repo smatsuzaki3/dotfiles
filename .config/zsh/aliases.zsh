@@ -4,6 +4,9 @@ alias tf='terraform'
 # mise
 alias mr='mise run'
 
+# tldr
+alias tldr='tldr -t base16'
+
 # cat を置き換え : コピペの時に邪魔にならないよう、行番号の>表示は抑止する
 alias cat='batcat --style=plain'
 
