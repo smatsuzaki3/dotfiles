@@ -1,6 +1,9 @@
 # terraform
 alias tf='terraform'
 
+# lazygit
+alias lg='lazygit'
+
 # mise
 alias mr='mise run'
 
