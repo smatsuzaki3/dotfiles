@@ -27,10 +27,11 @@ alias gs='git status'
 alias pull='git pull'
 
 # cdを便利に
-alias ~='cd ~'
-alias ..='cd ..'
-alias ...="cd ../.."
-alias ....="cd ../../.."
+alias cd='z'
+alias ~='z ~'
+alias ..='z ..'
+alias ...="z ../.."
+alias ....="z ../../.."
 
 # 隠しファイルも表示する
 alias tree='tree -a'
