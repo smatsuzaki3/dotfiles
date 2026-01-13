@@ -35,6 +35,9 @@ alias ....="cd ../../.."
 # 隠しファイルも表示する
 alias tree='tree -a'
 
+# historyを便利に
+alias history='history | fzf'
+
 # More ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
