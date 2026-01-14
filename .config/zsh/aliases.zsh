@@ -37,7 +37,7 @@ alias ....="z ../../.."
 alias tree='tree -a'
 
 # historyを便利に
-alias history='history | fzf'
+alias history='builtin history 1 | fzf'
 
 # More ls aliases
 alias ll='ls -alF'
