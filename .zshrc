@@ -2,7 +2,7 @@
 . "$HOME/.cargo/env"
 
 # direnv
-eval "$(direnv hook bash)"
+eval "$(direnv hook zsh)"
 
 # History configuration
 HISTSIZE=1000
